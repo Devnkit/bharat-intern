@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"><script src="https://kit.fontawesome.com/8b198040d7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi,I'm <span>Ankit Pandey</span><br> From Gorakhpur</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dynamic and creative individual with a passion for web development and
+content writing. With a strong foundation in programming and a keen eye for
+design, I excel in crafting user-centric and visually appealing websites. My
+proficiency in HTML5, CSS, and JavaScript allows me to transform ideas into
+functional and engaging online experiences.
+<br>
+As a content writer, I possess the ability to convey complex concepts in a clear
+and concise manner. I am skilled in producing engaging, well-researched, and
+SEO-friendly content across various topics. Whether it's technical
+documentation, articles, or blog posts, I have the versatility to adapt my writing
+style to suit different audiences and platform</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience' )">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web</span><br>Developing interfaces</li>
+                            <li><span>Web</span><br>front-end-Developing interfaces</li>
+                            <li><span>Web</span><br>back-end-Developing interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Developing interfaces work at codsSoft</li>
+                            <li><span>2023-Current</span><br>front-end-Developing interfaces work at CodSoft</li>
+                            <li><span>2023-Current</span><br>back-end-Developing interfaces work at CodSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-26</span><br>B.Tech from Ajay Kumar Garg Engineering College</li>
+                            <li><span>2019-21</span><br>12th passsed from Gorakhpur Public School got 94.4%</li>
+                            <li><span>2019</span><br>10th passed from R.C Ideal Public School got 89.9%</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-------------services------------->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Development and Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eius culpa aspernatur sequi est. Pariatur nobis sequi alias iusto accusantium reprehenderit a animi quaerat possimus soluta quis quia, incidunt magni!
+</p>
+<a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eius culpa aspernatur sequi est. Pariatur nobis sequi alias iusto accusantium reprehenderit a animi quaerat possimus soluta quis quia, incidunt magni!
+</p>
+<a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store-ios"></i>
+                            <h2>App Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eius culpa aspernatur sequi est. Pariatur nobis sequi alias iusto accusantium reprehenderit a animi quaerat possimus soluta quis quia, incidunt magni!
+</p>
+<a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!---------------portfolio-------------------->
+           <div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the all people of the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the all people of the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Online Shopping Website</h3>
+                <p>This website connects you to all storehouse of shopping of the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+
+           </div>
+           <!------------contact----------->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> ankitpandit022003@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 8303365793</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/ankit-pandey-473197233?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRDSKJKO9TV%2B%2F%2BIX3d0Xfig%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://instagram.com/ankit8643pandey?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                        <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="e-mail" placeholder="Your E-mail" required>
+                            <textarea name="message"rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                     </div>
+            </div>
+            <div class="copyright"> 
+                <p>Copyright © Ankit <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+            </div>
+           </div>
+            <script>
+                   
+                   var tablinks = document.getElementsByClassName("tab-links");
+                   var tabcontents = document.getElementsByClassName("tab-contents");
+
+                   function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tablink.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                   }
+
+
+            </script>
+            
+              
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwA2Lf0WStXxlMJeSj6srMhd9KmeEuqefaXbfDV5bUPTAIEPFDwxby7l9dyk8cN85pzEw/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg= document.getElementById("msg")
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+</body>
+
+</html>
